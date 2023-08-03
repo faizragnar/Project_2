@@ -1,0 +1,128 @@
+body{
+    background-image:linear-gradient(180deg, rgba(32,33,37,1) 0%, rgba(32,33,37,0.4) 75%),url(https://images.unsplash.com/photo-1568301956237-25a54f5f0d21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80);
+    background-size: contain;
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+}   
+#stick{
+    height: 200px;
+}
+#head{
+    background-color: rgb(149, 155, 141);
+  
+   text-align: left;
+ color: rgb(10, 66, 115);
+   margin: auto;
+   width: 60%;
+   height: 90px;
+   padding-top: 7px;
+   padding-left: 10px;
+   line-height: 1em;
+   border-radius:10px ;
+   
+   
+   
+}
+
+#p{ font-family: Georgia, Times, 'Times New Roman', serif;
+            font-size: 23px;
+            margin-top: 0%;
+            padding: 0px;
+}
+#h{
+   
+    height: 90px;
+    width: 1400px;
+    position:sticky ;
+    background-color: rgb(9, 8, 6);
+    opacity: 0.9;
+    top: 0px ;
+    margin: 10px auto;
+    border-bottom-left-radius:30px ;
+    border-bottom-right-radius: 30px;
+    color: antiquewhite;
+    display: flex;
+    padding-left: 20px;
+    
+   
+    
+    
+}
+
+  
+
+
+.blog{
+    
+  
+   border-radius: 21px;
+   transition: 50ms;
+    display: flex;
+    height: 300px;
+    width: 480px;
+    margin: auto;
+    
+    
+    justify-content: center;
+
+}
+.container{
+   
+      
+    display: flex;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.image{
+   width: 480px;
+   height: 300px;
+   position: relative;
+    z-index: 2;
+    border-radius: 20px;
+}
+.image:hover{
+    
+opacity: 0.3;
+cursor: pointer;
+filter: grayscale(80%);
+
+}
+
+.camicon{
+ position: absolute;
+ margin-top: 100px;
+   font-size: 60px;
+}
+
+
+
+footer{
+    height: 200px;
+}
+.b1{
+    background-color: salmon;
+
+}
+.b2{
+    background-color: orchid;
+
+}
+.b3{
+    background-color: yellowgreen;
+
+}
+.b4{
+    background-color: blueviolet;
+
+}
+.b5{
+    background-color: orangered;
+
+}
+.b6{
+    background-color: cyan;
+
+}
